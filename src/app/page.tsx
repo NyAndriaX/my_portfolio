@@ -4,7 +4,7 @@ import { Heading, Flex, Text, Button, Avatar, RevealFx, Arrow } from '@/once-ui/
 // import { Projects } from '@/components/work/Projects';
 
 import { home, person, about } from './lib/data';
-import { baseURL, routes } from './lib/config';
+import { baseURL } from './lib/config';
 // import { baseURL, routes, renderContent } from '@/app/resources'; 
 // import { Mailchimp } from '@/components';
 // import { Posts } from '@/components/blog/Posts';
@@ -120,7 +120,6 @@ export default function Home() {
                         </Flex>
                     </RevealFx>
                 </Flex>
-
             </Flex>
         </Flex>
     )

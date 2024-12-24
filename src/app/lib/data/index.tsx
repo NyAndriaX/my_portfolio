@@ -6,7 +6,7 @@ const person = {
     get name(): string {
         return `${this.firstname} ${this.lastname}`;
     },
-    role: 'Software engineering',
+    role: 'Fullstack developer',
     avatar: '/images/avatar.jpg',
     location: 'Madagascar/Antananarivo',
     languages: ['French', 'English'],
@@ -36,6 +36,10 @@ const social = [
     },
 ]
 
+const services = [
+    {}
+]
+
 const about = {
     label: 'About',
     title: 'About me',
@@ -54,7 +58,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Tsilavina is an engineer based in Madagascar, passionate about solving complex challenges and finding efficient solutions. Her work focuses on process optimization and project management in various technical fields.</>
+        description: <>Tsilavina is an Fullstack developer based in Madagascar, passionate about solving complex challenges and finding efficient solutions. Her work focuses on process optimization and project management in various technical fields.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -63,7 +67,7 @@ const about = {
             {
                 company: 'Office How Her',
                 timeframe: 'August 2024 - November 2024',
-                role: 'Full Stack Developer',
+                role: 'Fullstack developer',
                 achievements: [
                     <>Design and development of Club CEOs Platform, an innovative community platform for businesses, aimed at fostering professional exchanges.</>
                 ],
@@ -79,7 +83,7 @@ const about = {
             {
                 company: 'P29, Société par Actions Simplifiée unipersonnelle (SASU)',
                 timeframe: '2023 - 2024',
-                role: 'Full Stack Developer',
+                role: 'Fullstack developer',
                 achievements: [
                     <>Creation of a design prototype for ShopHub, an innovative management solution for e-commerce sites, focused on user experience.</>,
                     <>Design and development of an order management website, integrating a simple user interface and a RESTful API.</>,
@@ -92,7 +96,7 @@ const about = {
             {
                 company: 'WevCom Factory',
                 timeframe: '2022 - 2023',
-                role: 'React Developer',
+                role: 'React developer',
                 achievements: [
                     <>Integration and deployment of a website for event presentation.</>
                 ],
@@ -130,9 +134,9 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Software engineering</>,
+    headline: <>Fullstack developer</>,
     subline: <>
-        I’m Tsilavina Henintsoa, a <InlineCode>software engineer</InlineCode>. Let’s turn your ideas into reality—contact me today!</>
+        I’m Tsilavina Henintsoa, a <InlineCode>Fullstack developer</InlineCode>. Let’s turn your ideas into reality—contact me today!</>
 }
 
-export { person, newsletter, social, home, about };
+export { person, newsletter, social, home, about, services };
